@@ -1,0 +1,132 @@
+# ==============================================================================
+# Java & Build Outputs
+# ==============================================================================
+*.class
+*.war
+*.ear
+*.nar
+*.rar
+*.zip
+*.tar.gz
+
+# Java crash logs
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+.attach_pid*
+
+# Package files (allow maven/gradle wrappers)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==============================================================================
+# Maven
+# ==============================================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/.maven-wrapper.properties
+
+# ==============================================================================
+# Gradle
+# ==============================================================================
+.gradle/
+build/
+!src/**/build/
+
+# ==============================================================================
+# IDEs & Code Editors
+# ==============================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.apt_generated/
+.apt_generated_tests/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbproject/load-impl.xml
+nbproject/build-impl.xml
+
+# ==============================================================================
+# Spring Boot / Application Config & Secrets
+# ==============================================================================
+# Local environment variables and profiles
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+
+# ==============================================================================
+# Testing & Code Quality
+# ==============================================================================
+jacoco.exec
+*.dump
+*.dumpstream
+.sonar/
+.scannerwork/
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==============================================================================
+# Agent & Tool Metadata (Local workspace)
+# ==============================================================================
+.gemini/
+.agents/
